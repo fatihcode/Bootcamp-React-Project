@@ -6,7 +6,7 @@ class HelloMessage extends React.Component {
     render() {
         return <div>
 
-            <HelloNames />
+            <HelloNames name={isim}/>
             <h1>Hello Component</h1>
         </div>;
     }
@@ -14,14 +14,15 @@ class HelloMessage extends React.Component {
 
 
 class HelloNames extends React.Component {
-    static propTypes = {
-        isim: PropTypes.array
-    }
+
     render() {
+
+        console.log(this.props.name);
+        
         return <div>
 
-
-
+            <NoteList paket={this.props.name.map((item,index)=><span key={index}> Hi! {item}</span>)}/>
+                
         </div>;
     }
 }
@@ -31,8 +32,9 @@ class NoteList extends React.Component {
 
     render() {
         return <div>
+
             <ol>
-                {isim.map((item, index) => <li className={index == 0 ? "first" : index == 1 ? "second" : "third"} key={index}>{item}</li>)}
+                {this.props.paket.map((item, index) => <li className={index == 0 ? "first" : index == 1 ? "second" : "third"} key={index}>{item}</li>)}
             </ol>
 
 
