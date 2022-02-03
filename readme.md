@@ -4,3 +4,8 @@
 
 1. ✅React-JSX
 2. ✅React-Basics
+
+## 02.Day [React Props]
+
+1. ✅Emojipedia
+2. ✅Contacts
