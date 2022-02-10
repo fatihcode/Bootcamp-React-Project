@@ -1,0 +1,20 @@
+.parent {
+    color: brown;
+    background-color: beige;
+}
+
+.title {
+    color: blue;
+}
+
+.child {
+    color: coral;
+}
+
+#parap {
+    color: black;
+}
+
+h1{
+    color: pink
+}

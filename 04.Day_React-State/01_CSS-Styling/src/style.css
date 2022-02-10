@@ -1,0 +1,12 @@
+.parent {
+    color: red;
+    background-color: aqua;
+}
+
+.title {
+    color: brown;
+}
+
+.child {
+    color: chartreuse;
+}
