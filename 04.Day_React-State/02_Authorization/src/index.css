@@ -10,60 +10,62 @@ body {
   padding: 25px;
   max-width: 450px;
   min-width: 450px;
-  background-color: #F0F3F6;
+  background-color: #dfe6e9;
   text-align: center;
 }
 
 
 .heading {
-  font-size: 1.5em;
-  color: #3979F3;
+  text-align: center;
+  font-size: 2em;
+  color: #2d3436;
+  margin: 20px 0 30px;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
+  border-radius: 25px;
   position: relative;
-  background-color: #ffffff;
-  height: 250px;
   padding: 25px 25px;
+  background-color: #81ecec;
   margin: 25px 0;
+  height: 250px;
   box-shadow: 0 2px 5px #ccc;
-  overflow: hidden;
-
+  text-align: start;
 }
 
 .top {
-  display: flex;
+  border-radius: 25px 25px 0 0;
   height: 100px;
   width: 100%;
-  background-color: #6EB670;
+  background-color: #00cec9;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
 
 }
 
 .name {
+  font-size: 2em;
+  color: #2d3436;
   display: flex;
   flex: 1;
-  color: #fff;
-  font-size: 2em;
   margin: 10% 20px 0;
 }
 
-.circle-img {
+.card img {
   margin: 30px 20px 0 0;
-  border-radius: 150px;
-  border: 5px solid #fff;
-  width: 150px;
-  height: 150px;
-  box-shadow: 0 2px 5px #dadada;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
 }
 
 .bottom {
-  text-align: start;
+  margin-top: 120px;
 }
 
 .info {
@@ -71,40 +73,30 @@ body {
   color: #1a7e76;
 }
 
-.form-control {
+.form-inline {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   text-align: center;
 }
 
-.input {
+.form-control {
   width: 250px;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 5px;
   margin-bottom: 20px;
   font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
-  background-color: #F0F3F6;
-  border: 1px solid #DDDFE2;
 }
 
 button {
-  background-color: #427AF0;
-  color: #fff;
-  width: 150px;
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 32px;
   border: none;
+  text-align: center;
+  text-decoration: none;
   font-size: 16px;
   font-family: 'Segoe UI', sans-serif;
   box-shadow: 0 2px 5px #ccc;
-  cursor: pointer;
 }
-
-button:hover{
-  background-color: #3471E6
-}
-

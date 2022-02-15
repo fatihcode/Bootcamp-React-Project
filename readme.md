@@ -19,3 +19,8 @@
 
 1. ✅CSS Styling
 2. ✅Authorization
+
+## 05.Day [React Lifecycle]
+
+1. ✅Color Picker
+2. ✅Name Select

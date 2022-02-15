@@ -1,4 +1,4 @@
-# Tepki CSS Kuralları
+# React CSS Kuralları
 
 Bu projede tepki uygulamamızda css kullanacağız.
 Çalışan React klasörünüzde “src” klasörünüzü boşaltın (veya sadece adı değiştirebilirsiniz).
