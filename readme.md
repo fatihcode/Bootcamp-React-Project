@@ -2,8 +2,8 @@
 
 ## 01.Day [React Basics]
 
-1. ✅React-JSX
-2. ✅React-Basics
+1. ✅React JSX
+2. ✅React Basics
 
 ## 02.Day [React Props]
 
@@ -24,3 +24,8 @@
 
 1. ✅Color Picker
 2. ✅Name Select
+
+## 06.Day [React API]
+
+1. ✅Add User
+2. ✅Wikipedia
