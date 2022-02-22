@@ -29,3 +29,8 @@
 
 1. ✅Add User
 2. ✅Wikipedia
+
+## 07.Day [React Media]
+
+1. ✅PicPicker
+2. ✅Video Player
