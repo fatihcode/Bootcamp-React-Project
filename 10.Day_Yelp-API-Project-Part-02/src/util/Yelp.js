@@ -1,5 +1,4 @@
-const apiKey =
-  "2a2yrCtiiREt8T5nQ3_ZEhNpS3MH0h2QH3AMO648YDPg8PVAlSxgreYoDHUHkydcObbsxB0GGpc--Gcx2O0vvMpYbQ5Rf5BjyGOkw6JgMUdEX9IieNyO7Bh_OZEnYnYx";
+import apiKey from "./apiKey";
 
 const Yelp = {
   async search(term, location, sortBy) {

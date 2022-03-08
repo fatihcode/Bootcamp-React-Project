@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Form extends Component {
+export default class Form extends Component {
 
     state = { name: "", job: "" }
 
@@ -15,7 +15,6 @@ class Form extends Component {
             this.props.updateNames(this.state)
             this.setState({name: "", job: ""});
         }
-
 
         return (
             <form>
@@ -34,5 +33,3 @@ class Form extends Component {
         );
     }
 }
-
-export default Form;

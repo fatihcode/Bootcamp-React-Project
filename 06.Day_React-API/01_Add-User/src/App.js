@@ -2,38 +2,21 @@ import React, { Component } from 'react';
 import Table from "./Table";
 import Form from "./Form";
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      users: [
-        {
-          name: 'Charlie',
-          job: 'Janitor',
-        },
-        {
-          name: 'Mac',
-          job: 'Bouncer',
-        },
-        {
-          name: 'Dee',
-          job: 'Aspring actress',
-        }
-      ]
-    }
+export default class App extends Component {
+  
+  state = {
+    users: [
+      { name: 'Charlie', job: 'Janitor', },
+      { name: 'Mac', job: 'Bouncer', },
+      { name: 'Dee', job: 'Aspring actress', }
+    ]
   }
-
 
   render() {
 
     const updateNames = (data) => {
-      // const users = this.state.users
-      // users.push(data)
-      // this.setState({ users})
-      this.setState({users:[...this.state.users,data]})
+      this.setState({ users: [...this.state.users, data] })
     }
-
 
     return (
       <div className="container">
@@ -47,5 +30,3 @@ class App extends Component {
     )
   }
 }
-
-export default App;

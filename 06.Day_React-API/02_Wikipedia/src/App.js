@@ -41,7 +41,6 @@ export default class App extends Component {
         <h1>Wikipedia Search with Function Component</h1>
 
         <Form handleData={handleData} />
-
         <Results wiki={this.state.wiki} />
 
       </div>

@@ -25,17 +25,13 @@ const TableBody = (props) => {
   )
 }
 
-class Table extends Component {
-
+export default class Table extends Component {
   render() {
-    console.log(this.props.users);
     return (
       <table>
         <TableHeader />
-        <TableBody users={this.props.users}/>
+        <TableBody users={this.props.users} />
       </table>
     )
   }
 }
-
-export default Table;
