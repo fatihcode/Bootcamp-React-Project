@@ -43,3 +43,7 @@
 ## 09.Day [React Project]
 
 1. ✅Yelp API Project Part-01
+
+## 10.Day [React Project]
+
+1. ✅Yelp API Project Part-02
