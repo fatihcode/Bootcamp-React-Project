@@ -48,6 +48,6 @@
 
 1. ✅Yelp API Project Part-02
 
-## 10.Day [React Project]
+## 11.Day [React Project]
 
 1. ✅Redux ToDo Project
