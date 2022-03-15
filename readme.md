@@ -40,14 +40,18 @@
 1. ✅Router
 2. ✅Video Player Router
 
-## 09.Day [React Project]
+## 09.Day [API Project]
 
 1. ✅Yelp API Project Part-01
 
-## 10.Day [React Project]
+## 10.Day [API Project]
 
 1. ✅Yelp API Project Part-02
 
-## 11.Day [React Project]
+## 11.Day [Redux Project]
 
 1. ✅Redux ToDo Project
+   
+## 12.Day [Redux Project]
+
+1. ✅Redux Reddit Project
