@@ -55,3 +55,7 @@
 ## 12.Day [Redux Project]
 
 1. ✅Redux Reddit Project
+
+## 13.Day [Redux Project]
+
+1. ✅Redux Shopping Cart Project
