@@ -59,3 +59,7 @@
 ## 13.Day [Redux Project]
 
 1. ✅Redux Shopping Cart Project
+
+## 14.Day [Redux Project]
+
+1. ✅Redux Book Sales
